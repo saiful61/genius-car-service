@@ -8,7 +8,7 @@ const MangeService = () => {
     const handleDelect = id => {
         const proceed = window.confirm("Are you sure")
         if (proceed) {
-            const url = `http://localhost:5000/service/${id}`;
+            const url = `https://car-service-5nx6.onrender.com/service/${id}`;
             // console.log(url)
             fetch(url, {
                 method: 'DELETE'
